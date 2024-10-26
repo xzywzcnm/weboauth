@@ -1,0 +1,282 @@
+{
+  "id": "3623785",
+  "name": "weatherIcons",
+  "font_family": "weather",
+  "css_prefix_text": "weather-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "31780399",
+      "name": "细雨",
+      "font_class": "shower",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "31780400",
+      "name": "飘雪",
+      "font_class": "snowing",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "31780401",
+      "name": "小雨和雪",
+      "font_class": "xiaoyuhexue",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "31780375",
+      "name": "大冻雨",
+      "font_class": "dadongyu",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "31780376",
+      "name": "冻雨",
+      "font_class": "freezing-rain",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "31780377",
+      "name": "沉重冻雨",
+      "font_class": "chenzhongdongyu",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "31780378",
+      "name": "冰雹",
+      "font_class": "hailstone",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "31780379",
+      "name": "倾盘大雨",
+      "font_class": "qingpandayu",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "31780380",
+      "name": "多云",
+      "font_class": "duoyun",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "31780381",
+      "name": "没有降水的雷雨",
+      "font_class": "thunder",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "31780382",
+      "name": "暴雪",
+      "font_class": "snow",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "31780383",
+      "name": "晴朗",
+      "font_class": "clear-day",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "31780384",
+      "name": "雷雨",
+      "font_class": "thunderstorm",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "31780385",
+      "name": "微弱的冻雨",
+      "font_class": "freezing-drizzle",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "31780386",
+      "name": "毛毛细雨",
+      "font_class": "maomaoxiyu",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "31780388",
+      "name": "小雪",
+      "font_class": "light-snow",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "31780389",
+      "name": "小雨",
+      "font_class": "light-rain",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "31780390",
+      "name": "阴云密布",
+      "font_class": "cloudy",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "31780391",
+      "name": "暴风雪",
+      "font_class": "snowstorm",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "31780392",
+      "name": "雨",
+      "font_class": "yu",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "31780393",
+      "name": "重的细雨",
+      "font_class": "zhongdexiyu",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "31780394",
+      "name": "浅浅的毛毛雨",
+      "font_class": "qianqiandemaomaoyu",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "31780395",
+      "name": "雪雨",
+      "font_class": "rain-snow",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "31780396",
+      "name": "雪",
+      "font_class": "xue",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "31780397",
+      "name": "雨淋浴",
+      "font_class": "rain",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "31780398",
+      "name": "阵雪",
+      "font_class": "snow-shower",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "19031151",
+      "name": "阵雨夹雪",
+      "font_class": "zhenyujiaxue",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "3901538",
+      "name": "龙卷风",
+      "font_class": "tornado",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "15474962",
+      "name": "天气图标_雷电",
+      "font_class": "lightning",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "4562828",
+      "name": "沙尘暴",
+      "font_class": "sandStorm",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "4562854",
+      "name": "雾",
+      "font_class": "minFog",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "4562818",
+      "name": "浮尘",
+      "font_class": "floating-dust",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "4562820",
+      "name": "雷阵雨伴冰雹",
+      "font_class": "thunderstormHailstone",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "4562860",
+      "name": "扬沙",
+      "font_class": "blowingSand",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "31600950",
+      "name": "风",
+      "font_class": "wind",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "31600952",
+      "name": "白天局部多云",
+      "font_class": "partly-cloudy-day",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "31600953",
+      "name": "雾霾",
+      "font_class": "fog",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "31600954",
+      "name": "夜间局部多云",
+      "font_class": "partly-cloudy-night",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "31600956",
+      "name": "夜间晴朗",
+      "font_class": "yejianqinglang",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    }
+  ]
+}

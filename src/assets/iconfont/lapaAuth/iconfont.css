@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "auth"; /* Project id 3279448 */
+  src: url('iconfont.eot?t=1662168934927'); /* IE9 */
+  src: url('iconfont.eot?t=1662168934927#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('iconfont.woff2?t=1662168934927') format('woff2'),
+       url('iconfont.woff?t=1662168934927') format('woff'),
+       url('iconfont.ttf?t=1662168934927') format('truetype'),
+       url('iconfont.svg?t=1662168934927#auth') format('svg');
+}
+
+.auth {
+  font-family: "auth" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.auth-image:before {
+  content: "\e6fb";
+}
+
+.auth-notice:before {
+  content: "\e691";
+}
+

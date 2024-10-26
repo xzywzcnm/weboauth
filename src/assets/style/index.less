@@ -1,0 +1,325 @@
+@import './variable.less';
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none none outside;
+}
+
+table,
+td,
+th {
+  border-collapse: collapse;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+div:focus {
+  outline: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-size: var(--dyt-font-size);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  &.again-login-body{
+    #app {
+      filter: blur(3px);
+    }
+    .again-login-content{
+      padding: 0;
+      margin: 0;
+      width: auto;
+      border: none;
+      .el-message-box__header{
+        display: none;
+      }
+      .el-message-box__content{
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+  #driver-popover-item{
+    &.step-popover-class{
+      max-width: 600px;
+    }
+  }
+  #app {
+    height: 100%;
+    width: 100%;
+    min-width: var(--page-min-width);
+    color: var(--dyt-font-corlor);
+    overflow: auto;
+  }
+  // el 按钮设置
+  .el-button{
+    &:not(.is-circle){
+      padding: 8px 10px;
+    }
+  }
+  .el-button,
+  .el-link{
+    .el-icon{
+      vertical-align: text-bottom;
+    }
+  }
+  // el 滚动条设置
+  .el-scrollbar__bar{
+    &.is-vertical{
+      width: 8px;
+    }
+    &.is-horizontal{
+      height: 8px;
+    }
+    .el-scrollbar__thumb{
+      background-color: #303030;
+    }
+  }
+  .el-pagination{
+    justify-content: flex-end;
+  }
+  // 信息提示层级提升
+  .el-message{
+    z-index: 99999999999 !important;
+  }
+  .el-input--small {
+    font-size: var(--dyt-font-size);
+  }
+
+  .mian-container-table{
+    td {
+      .el-button{
+        padding: 4px 5px;
+        font-size: 12px;
+        &+.el-button{
+          padding: 4px 5px;
+          margin-left: 5px;
+        }
+      }
+      .el-dropdown{
+        .el-tooltip__trigger{
+          .el-button{
+            height: 24px;
+          }
+        }
+      }
+    }
+  }
+  // 文本省略号
+  .text-ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  // 文本居中
+  .text-center {
+    text-align: center
+  }
+  // 文本不换行
+  .text-nowarp {
+    white-space: nowrap
+  }
+  .again-login-message{
+    &.el-message-box{
+      width: auto;
+      padding: 0;
+      border: none;
+      .el-message-box__content{
+        padding: 0px;
+      }
+      .el-message-box__btns,
+      .el-message-box__header{
+        display: none;
+      }
+      .el-message-box__message{
+        p{
+          line-height: 0;
+        }
+      }
+    }
+  }
+
+  .el-input--medium{
+    .el-input__inner{
+      height: 32px;
+      line-height: 32px;
+    }
+  }
+  .table-loading{
+    .el-loading-mask{
+      background-color: #fff;
+      .el-loading-spinner{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        max-width: 400px;
+        height: calc(100% - 100px);
+        background-image: url('../images/table_loding.gif');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        transform: translate(-50%, -50%);
+      }
+      .circular{
+        display: none;
+      }
+    }
+  }
+  .first-loading{
+    .dyt-table-container{
+      .el-table__empty-text {
+        background-image: url('../images/search.png');
+      }
+    }
+  }
+  .dyt-table-container{
+    &.dyt-table-empty{
+      .el-scrollbar__view{
+        height: 100%;
+      }
+    }
+    .el-table__body-wrapper{
+      position: static;
+      min-height: 200px;
+    }
+    .el-table__empty-text {
+      background-image: url('../images/nullength.png');
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      max-width: 400px;
+      height: calc(100% - 100px);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+      color: rgba(#000, 0);
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+  }
+  .el-popconfirm__action{
+    margin-top: 15px;
+  }
+  .el-input.is-disabled{
+    .el-input__inner {
+      color: var(--el-input-text-color,var(--el-text-color-regular));
+      background-color: #f9f9f9;
+      cursor: default;
+    }
+  }
+  // 表单样式
+  .el-form-item{
+    margin-bottom: 18px;
+    &.is-success{
+      .el-input__inner,
+      .el-textarea__inner{
+        border-color: #DCDFE6;
+      }
+      .el-input__inner:focus,
+      .el-textarea__inner:focus{
+        border-color: #409EFF;
+      }
+    }
+    .el-form-item__label,
+    .el-form-item__content{
+      line-height: 32px;
+    }
+    .el-form-item__error{
+      padding-top: 2px;
+    }
+    .el-input__inner,
+    .el-input__wrapper{
+      width: 100%;
+    }
+    // 自定义表单组件验证失败边框颜色设置
+    &.is-error{
+      .dyt-tree-content{
+        border-color: var(--el-color-danger);;
+      }
+      .dyt-input-tag-content{
+        border-color: var(--el-color-danger);;
+        .el-input__inner,
+        .el-input__wrapper{
+          box-shadow: none;
+        }
+      }
+    }
+  }
+  // loading 旋转
+  .icon-loading{
+    display: inline-block;
+    animation:iconLoading 1.2s linear infinite;
+  }
+  // svg 图标设置
+  svg.icon, svg.svg-icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+  }
+  .el-loading-parent--relative{
+    pointer-events:initial;
+    -webkit-user-select: initial;
+    -moz-user-select: initial;
+    -ms-user-select: initial;
+    user-select: initial;
+  }
+}
+
+@keyframes iconLoading {
+	0% {transform: rotate(0deg);}
+	100% {transform: rotate(360deg);}
+}
+

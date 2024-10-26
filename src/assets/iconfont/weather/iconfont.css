@@ -1,0 +1,170 @@
+@font-face {
+  font-family: "weather"; /* Project id 3623785 */
+  src: url('iconfont.ttf?t=1663050061390') format('truetype'),
+       url('iconfont.svg?t=1663050061390#weather') format('svg');
+}
+
+.weather {
+  font-family: "weather" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.weather-shower:before {
+  content: "\e650";
+}
+
+.weather-snowing:before {
+  content: "\e651";
+}
+
+.weather-xiaoyuhexue:before {
+  content: "\e652";
+}
+
+.weather-dadongyu:before {
+  content: "\e633";
+}
+
+.weather-freezing-rain:before {
+  content: "\e639";
+}
+
+.weather-chenzhongdongyu:before {
+  content: "\e63a";
+}
+
+.weather-hailstone:before {
+  content: "\e63b";
+}
+
+.weather-qingpandayu:before {
+  content: "\e63c";
+}
+
+.weather-duoyun:before {
+  content: "\e63d";
+}
+
+.weather-thunder:before {
+  content: "\e63e";
+}
+
+.weather-snow:before {
+  content: "\e63f";
+}
+
+.weather-clear-day:before {
+  content: "\e640";
+}
+
+.weather-thunderstorm:before {
+  content: "\e641";
+}
+
+.weather-freezing-drizzle:before {
+  content: "\e642";
+}
+
+.weather-maomaoxiyu:before {
+  content: "\e643";
+}
+
+.weather-light-snow:before {
+  content: "\e645";
+}
+
+.weather-light-rain:before {
+  content: "\e646";
+}
+
+.weather-cloudy:before {
+  content: "\e647";
+}
+
+.weather-snowstorm:before {
+  content: "\e648";
+}
+
+.weather-yu:before {
+  content: "\e649";
+}
+
+.weather-zhongdexiyu:before {
+  content: "\e64a";
+}
+
+.weather-qianqiandemaomaoyu:before {
+  content: "\e64b";
+}
+
+.weather-rain-snow:before {
+  content: "\e64c";
+}
+
+.weather-xue:before {
+  content: "\e64d";
+}
+
+.weather-rain:before {
+  content: "\e64e";
+}
+
+.weather-snow-shower:before {
+  content: "\e64f";
+}
+
+.weather-zhenyujiaxue:before {
+  content: "\e629";
+}
+
+.weather-tornado:before {
+  content: "\e614";
+}
+
+.weather-lightning:before {
+  content: "\e61c";
+}
+
+.weather-sandStorm:before {
+  content: "\e61b";
+}
+
+.weather-minFog:before {
+  content: "\e623";
+}
+
+.weather-floating-dust:before {
+  content: "\e617";
+}
+
+.weather-thunderstormHailstone:before {
+  content: "\e619";
+}
+
+.weather-blowingSand:before {
+  content: "\e624";
+}
+
+.weather-wind:before {
+  content: "\e630";
+}
+
+.weather-partly-cloudy-day:before {
+  content: "\e632";
+}
+
+.weather-fog:before {
+  content: "\e634";
+}
+
+.weather-partly-cloudy-night:before {
+  content: "\e635";
+}
+
+.weather-yejianqinglang:before {
+  content: "\e637";
+}
+

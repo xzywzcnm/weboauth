@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "lapa"; /* Project id 2831836 */
+  src: url('iconfont.eot?t=1702363450203'); /* IE9 */
+  src: url('iconfont.eot?t=1702363450203#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('iconfont.woff2?t=1702363450203') format('woff2'),
+       url('iconfont.woff?t=1702363450203') format('woff'),
+       url('iconfont.ttf?t=1702363450203') format('truetype'),
+       url('iconfont.svg?t=1702363450203#lapa') format('svg');
+}
+
+.lapa {
+  font-family: "lapa" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-hongrenxitong:before {
+  content: "\e643";
+}
+
+.icon-jieliudingdan:before {
+  content: "\e62e";
+}
+
+.icon-question:before {
+  content: "\e633";
+}
+
+.icon-loading:before {
+  content: "\e608";
+}
+
+.icon-image:before {
+  content: "\e6fb";
+}
+
+.icon-fanhui:before {
+  content: "\e67a";
+}
+
+.icon-eyeclose:before {
+  content: "\e6ac";
+}
+
+.icon-eye:before {
+  content: "\e673";
+}
+
+.icon-interface:before {
+  content: "\e612";
+}
+
+.icon-menu:before {
+  content: "\e609";
+}
+
+.icon-system:before {
+  content: "\e679";
+}
+
+.icon-menu-list:before {
+  content: "\e6fa";
+}
+
+.icon-desktop:before {
+  content: "\e64b";
+}
+
+.icon-data-center:before {
+  content: "\e652";
+}
+
+.icon-marketing:before {
+  content: "\e647";
+}
+
+.icon-power:before {
+  content: "\e60c";
+}
+
+.icon-exit:before {
+  content: "\e62c";
+}
+
+.icon-praise:before {
+  content: "\e6ce";
+}
+
+.icon-information:before {
+  content: "\e6cf";
+}
+
+.icon-close:before {
+  content: "\e6d9";
+}
+
+.icon-group:before {
+  content: "\e6f1";
+}
+
+.icon-personal:before {
+  content: "\e6f2";
+}
+
+.icon-download:before {
+  content: "\e70d";
+}
+
+.icon-homt-people:before {
+  content: "\e6f0";
+}
+
+.icon-user:before {
+  content: "\e6f7";
+}
+
+.icon-lock:before {
+  content: "\e710";
+}
+
+.icon-trash:before {
+  content: "\e71a";
+}
+

@@ -1,0 +1,23 @@
+{
+  "id": "3279448",
+  "name": "lapaAuth",
+  "font_family": "auth",
+  "css_prefix_text": "auth-",
+  "description": "认证中心",
+  "glyphs": [
+    {
+      "icon_id": "980460",
+      "name": "image",
+      "font_class": "image",
+      "unicode": "e6fb",
+      "unicode_decimal": 59131
+    },
+    {
+      "icon_id": "10487479",
+      "name": "消息",
+      "font_class": "notice",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    }
+  ]
+}
